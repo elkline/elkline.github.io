@@ -137,6 +137,8 @@ nav a{
 }
 
 a{
+	display: block;
+	padding: 10 px;
 	color: rgba(142, 143, 145);
 	text-decoration: none;
 	font-weight: bold;
