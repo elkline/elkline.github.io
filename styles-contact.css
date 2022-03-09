@@ -60,32 +60,33 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/WebsiteBackground.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
+	font-family: "helvetica", sans-serif;
 	
 	
 }
 
 .center {
-    width: 800px;
+    width: 80%;
+	max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(255, 255, 255, .60); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	/*border: 4px dashed white;*/
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	/*border: 3px dashed red;*/
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-family: molto, serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2em;
@@ -95,7 +96,6 @@ h1 {
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-family: molto, serif;
 	font-weight: 400; 
 	font-style: normal;
 	font-size: 1.5em;
@@ -107,7 +107,6 @@ h2 {
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-family: molto, serif;
 	font-weight: 400; 
 	font-style: normal;
 	font-size: 1.2em;
@@ -116,13 +115,12 @@ p {
 }
 
 nav{
-	font-family: molto, serif;
 	font-weight: 400; 
 	font-style: normal;
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-    border: dashed turquoise;
+    border: rgb(167, 167, 167);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -138,15 +136,14 @@ nav a{
 }
 
 a{
-	color: #444;
+	color: rgb(66, 66, 66);
 	text-decoration: none;
 	font-weight: bold;
 
 }
 
 a:hover{
-	color: black;
-	background: pink;
+	color: rgb(255, 255, 255);
 }
     
     
