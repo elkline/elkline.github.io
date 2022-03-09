@@ -71,7 +71,7 @@ html, body {
 .center-top {
     width: 80%;
 	max-width: 800px;
-	padding: 2%;
+	padding: 10%;
     margin: 100px auto;
  	background: rgba(255, 255, 255, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
@@ -91,6 +91,7 @@ h1 {
 	font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
+	padding: 30px
     color: rgba(142, 143, 145);
 }
 
@@ -101,7 +102,7 @@ h2 {
 	font-size: 1.5em;
     line-height: 1.4;
     color: rgba(97, 97, 99);
-    padding: 0px 0px;
+    padding: 30px;
     margin: 0px auto 25px auto;
 }
 
@@ -111,15 +112,24 @@ p {
 	font-style: normal;
 	font-size: 1.2em;
     line-height: 1.6;
+	padding: 30px;
     color: rgba(97, 97, 99);
+}
+
+.center-bottom {
+	width: 80%;
+	max-width: 800px;
+	padding: 10%;
+    margin: 100px auto;
+ 	background: rgba(255, 255, 255, .75); /*this uses opacity of 75% for the background color*/
 }
 
 nav{
 	font-weight: 400; 
 	font-style: normal;
 	font-size: 1.2em;
-	width: 80%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 20px 0;
 	padding: 20px 0;
     /*border: rgb(167, 167, 167);*/
 	border-width: 3px 0;
@@ -127,13 +137,22 @@ nav{
 	/*margin-top: 2em;*/
 }
 
-nav li{
-	display: inline;
+nav ul{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
 }
 
-nav a{
+nav ul li{
+	width: 20%;
+	float: left;
+}
+
+nav ul li a{
 	display: inline-block;
-	padding: 10 px;
+	width: 100%;
 }
 
 a{
