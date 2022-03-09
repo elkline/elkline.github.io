@@ -73,7 +73,7 @@ html, body {
 	max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(255, 255, 255, .60); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(255, 255, 255, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	/*border: 4px dashed white;*/
 }
@@ -91,7 +91,7 @@ h1 {
 	font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: rgba(142, 143, 145);
 }
 
 h2 {
@@ -100,7 +100,7 @@ h2 {
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: rgba(97, 97, 99);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -111,19 +111,20 @@ p {
 	font-style: normal;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: rgba(97, 97, 99);
 }
 
 nav{
 	font-weight: 400; 
 	font-style: normal;
 	font-size: 1.2em;
-	width: 400px;
+	width: 80%;
 	margin: 0 auto;
-    border: rgb(167, 167, 167);
+	padding: 20px 0;
+    /*border: rgb(167, 167, 167);*/
 	border-width: 3px 0;
 	text-align: center;
-	margin-top: 2em;
+	/*margin-top: 2em;*/
 }
 
 nav li{
@@ -136,14 +137,14 @@ nav a{
 }
 
 a{
-	color: rgb(66, 66, 66);
+	color: rgba(142, 143, 145);
 	text-decoration: none;
 	font-weight: bold;
 
 }
 
 a:hover{
-	color: rgb(255, 255, 255);
+	color: rgb(229, 154, 94);
 }
     
     
