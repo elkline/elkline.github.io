@@ -93,6 +93,7 @@ h1 {
 	color:  rgba(142, 143, 145);
     margin: 0px auto 10px auto;
 	padding: 20px;
+	padding-bottom: 10px;
 }
 
 h2 {
@@ -103,6 +104,7 @@ h2 {
     line-height: 1.4;
     color: rgba(97, 97, 99);
     padding: 20px;
+	padding-bottom: 10px;
     margin: 0px auto 25px auto;
 }
 
@@ -123,6 +125,7 @@ nav{
 	width: 80%;
 	margin: 0 auto;
 	padding: 20px 0;
+	padding-top: 40px;
     /*border: rgb(167, 167, 167);*/
 	/* border-width: 3px 0; */
 	/*margin-top: 2em;*/
