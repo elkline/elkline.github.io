@@ -69,10 +69,11 @@ html, body {
 }
 
 .center-top {
-    width: 65%;
+    width: 50%;
 	max-width: 800px;
-	padding: 10%;
-    margin: 100px auto;
+	padding: 100px;
+	padding-top: 80px;
+    margin: 50px auto;
  	background: rgba(255, 255, 255, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	/*border: 4px dashed white;*/
@@ -80,7 +81,8 @@ html, body {
 
    
 #logo {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+	/* margin-top: 30px; */
 	/*border: 3px dashed red;*/
 	text-align: center;
 }
@@ -91,21 +93,19 @@ h1 {
 	font-style: normal;
 	font-size: 2em;
 	color:  rgba(142, 143, 145);
-    margin: 0px auto 10px auto;
-	padding: 20px;
-	padding-bottom: 10px;
+    margin: 10px;
+	margin-bottom: 5px;
 }
 
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	font-weight: 400; 
-	font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: rgba(97, 97, 99);
-    padding: 20px;
-	padding-bottom: 10px;
-    margin: 0px auto 25px auto;
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+   font-weight: 400; 
+   font-style: normal;
+   font-size: 1.5em;
+   line-height: 1.4;
+   color: rgba(97, 97, 99);
+   margin: 0px auto 25px auto;
+   margin-bottom: 40px;
 }
 
 p {
@@ -122,10 +122,11 @@ nav{
 	font-weight: 400; 
 	font-style: normal;
 	font-size: 1.2em;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
-	padding: 20px 0;
-	padding-top: 40px;
+	margin-top: 40px;
+	/* padding: 20px 0;
+	padding-top: 40px; */
     /*border: rgb(167, 167, 167);*/
 	/* border-width: 3px 0; */
 	/*margin-top: 2em;*/
